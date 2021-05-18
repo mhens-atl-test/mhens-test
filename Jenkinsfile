@@ -4,6 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                echo "Pushed by ${env.BBS_ACTOR}"
                 echo 'Building...'
                 sh 'mvn clean install -DskipTests'
             }
