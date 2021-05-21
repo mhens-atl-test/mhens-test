@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'printenv'
+                sh 'printenv | sort'
                 echo 'Building...'
                 sh 'mvn clean install -DskipTests'
             }
