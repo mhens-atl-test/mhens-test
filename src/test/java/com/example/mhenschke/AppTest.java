@@ -19,6 +19,6 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrueAgain()
     {
-        assertTrue(true);
+        assertTrue(false);
     }
 }
