@@ -1,2 +1,2 @@
-echo "passing test"
-exit 0
+echo "failing test"
+exit 1
